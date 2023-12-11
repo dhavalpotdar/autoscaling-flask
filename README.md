@@ -51,11 +51,6 @@ This application uses a pre-trained sentiment analysis model, but Hugging Face o
     - docker tag my-flask-app username/my-flask-app:latest
     - docker push username/my-flask-app:latest
 
-
-<p align="center">
-  <img width="600" src="https://github.com/nogibjj/IDS706-Individual_Project_4_us26/blob/main/images/6.png" alt="2">
-</p>	
-
 ## Prerequisites
 
       - [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) 
