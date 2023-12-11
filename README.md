@@ -1,6 +1,6 @@
 # Auto Scaling Flask App Using Azure App Services
 
-[![Sentiment_Analysis CI/CD](https://github.com/nogibjj/IDS706-Individual_Project_4_us26/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/IDS706-Individual_Project_4_us26/actions/workflows/cicd.yml)
+[![Sentiment_Analysis CI/CD](https://github.com/dhavalpotdar/autoscaling-flask/actions/workflows/cicd.yml/badge.svg)](https://github.com/dhavalpotdar/autoscaling-flask/actions/workflows/cicd.yml)
 
 ## Hugging Face Model Integration
 
@@ -22,21 +22,10 @@ This application uses a pre-trained sentiment analysis model, but Hugging Face o
 
 ### Working of the app
 
-<p align="center">
-  <img width="600" src="https://github.com/nogibjj/IDS706-Individual_Project_4_us26/blob/main/images/1.png" alt="2">
-</p>	
+![index](./images/4.jpg "Input")
 
-<p align="center">
-  <img width="600" src="https://github.com/nogibjj/IDS706-Individual_Project_4_us26/blob/main/images/2.png" alt="2">
-</p>	
+![result](./images/7.jpg "Output")
 
-<p align="center">
-  <img width="600" src="https://github.com/nogibjj/IDS706-Individual_Project_4_us26/blob/main/images/3.png" alt="2">
-</p>	
-
-<p align="center">
-  <img width="600" src="https://github.com/nogibjj/IDS706-Individual_Project_4_us26/blob/main/images/4.png" alt="2">
-</p>	
 
 ## Deploying Flask App to Docker Hub
 
