@@ -2,23 +2,19 @@
 
 [![Sentiment_Analysis CI/CD](https://github.com/dhavalpotdar/autoscaling-flask/actions/workflows/cicd.yml/badge.svg)](https://github.com/dhavalpotdar/autoscaling-flask/actions/workflows/cicd.yml)
 
-## Hugging Face Model Integration
+## Model
 
-The Flask web application (`app.py`) integrates a sentiment analysis model provided by Hugging Face's Transformers library. This model is used to analyze the sentiment of text input by users.
+This application utilizes a sentiment analysis model built upon Hugging Face's pre-trained transformer models, specifically crafted for natural language processing tasks. Employing transfer learning on an extensive dataset, the model predicts the sentiment of textual data.
 
-### Model Description
+## Integration Details
 
-The sentiment analysis model employed in this application is based on Hugging Face's pre-trained transformer models, which are designed for natural language processing tasks. The model uses transfer learning on a large corpus to predict the sentiment of text data.
-
-### Integration Details
-
-The model is loaded using Hugging Face's `pipeline` module within the Flask application (`app.py`). When a user inputs text into the application, the model processes the text and predicts the sentiment, returning the result to the user.
+Within the Flask application, the model is instantiated using Hugging Face's pipeline module. Upon receiving text input from the user, the model processes the text, predicts the sentiment, and subsequently delivers the result back to the user.
 
 The relevant code snippets in `app.py` demonstrate how the model is loaded and used for sentiment analysis.
 
 ### Model Customization
 
-This application uses a pre-trained sentiment analysis model, but Hugging Face offers various pre-trained models for different natural language processing tasks. Users can explore and choose different models based on their specific requirements by modifying the model loading code in `app.py`.
+While employing a pre-trained sentiment analysis model, this application provides users with the flexibility to explore a range of pre-trained models offered by Hugging Face for diverse natural language processing tasks. Users can select and customize models according to their specific needs by adjusting the model loading code in app.py.
 
 ### Working of the app
 
@@ -65,11 +61,6 @@ Replace <YOUR_APP_NAME> with your app name and <YOUR_REGION> with your desired A
 
       - https://<YOUR_APP_NAME>.azurewebsites.net
 
-<p align="center">
-  <img width="600" src="https://github.com/nogibjj/IDS706-Individual_Project_4_us26/blob/main/images/5.png" alt="2">
-</p>	
-
-
 ## HTML Templates
 
 The Flask web application uses HTML templates for the user interface. Two main templates are used:
@@ -92,17 +83,4 @@ The `result.html` template is used to display the sentiment analysis result. It 
 - Section to show the sentiment analysis result.
 
 These HTML templates are used in conjunction with the Flask routes in `app.py` to render the user interface and display analysis results to the end-user.
-
-
-### 6. CI/CD Automation files
-
-
-.github/workflows - This directory in a Python project (or any GitHub repository) is used for creating and storing GitHub Actions workflows. GitHub Actions is a continuous integration and continuous delivery                           (CI/CD) platform provided by GitHub. The workflow is triggered on pushes to the main branch. It sets up :
-   
-       1. Python environment
-       2. Installs project dependencies
-       3. Install packages
-       4. Runs tests
-       5. Format
-       6. Linting
        
