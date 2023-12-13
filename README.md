@@ -2,6 +2,10 @@
 
 [![Sentiment_Analysis CI/CD](https://github.com/dhavalpotdar/autoscaling-flask/actions/workflows/cicd.yml/badge.svg)](https://github.com/dhavalpotdar/autoscaling-flask/actions/workflows/cicd.yml)
 
+## Demo Video Link
+
+https://www.loom.com/share/ef9fba9169fa40ad857f48f97426e4d9?sid=786dc464-85f5-48d0-a560-6f0ad33bc28a
+
 ## Model
 
 This application utilizes a sentiment analysis model built upon Hugging Face's pre-trained transformer models, specifically crafted for natural language processing tasks. Employing transfer learning on an extensive dataset, the model predicts the sentiment of textual data.
